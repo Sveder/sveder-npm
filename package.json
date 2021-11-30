@@ -1,0 +1,17 @@
+{
+  "name": "sveder",
+  "version": "1.0.0",
+  "description": "Open sveder.com",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node -e 'const open = require(\"open\"); open(\"http://sveder.com\")'"
+  },
+  "author": "sveder",
+  "license": "MIT",
+  "dependencies": {
+    "open": "8.2.1"
+  },
+  "config": {
+    "unsafe-perm": true
+  }
+}
